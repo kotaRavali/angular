@@ -1,0 +1,4 @@
+<h1>Latest News Feeds</h1>
+<app-post *ngFor= "let varPost of listOfPosts; let i=index" 
+[post] = "varPost"
+[index] = "i"></app-post>

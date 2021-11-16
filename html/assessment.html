@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip1"]').tooltip();
+      $('[data-toggle="tooltip2"]').tooltip();
+ 
+    });
+    </script>
+     <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();  
+        });
+        </script>
+        <style>
+            body {
+              background-color: #f7a6c5;
+            }
+            </style>
+</head>
+
+<body>      
+
+    <nav class="navbar navbar-inverse">
+
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">Java FSD</a>
+
+          </div>
+
+          <ul class="nav navbar-nav">
+
+            <li class="active"><a href="#">Home</a></li>
+
+            <li><a href="#">Tutorial</a></li>
+
+            <li><a href="#">Contact Us</a></li>
+
+            <li><a href="#">About Us</a></li>
+
+          </ul>
+
+        </div>
+
+      </nav>
+
+<br>
+
+<div class="container">
+
+  <h3>Button example</h3>
+
+  <button type="button" class="btn">Basic</button>
+
+  <button type="button" class="btn btn-default">Default</button>
+
+  <button type="button" class="btn btn-primary">Primary</button>
+
+  <button type="button" class="btn btn-success">Success</button>
+
+  <button type="button" class="btn btn-info">Info</button>
+
+  <button type="button" class="btn btn-warning">Warning</button>
+
+  <button type="button" class="btn btn-danger">Danger</button>
+
+  <button type="button" class="btn btn-link">Link</button>      
+
+</div> <br>
+
+<div class="container">
+
+<div class="dropdown">
+
+    <h3>Dropdown Example</h3>
+
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Language
+
+    <span class="caret"></span></button>
+
+    <ul class="dropdown-menu">
+
+      <li><a href="#">HTML</a></li>
+
+      <li><a href="#">CSS</a></li>
+
+      <li><a href="#">JavaScript</a></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+</div> <br>
+
+<div class="container">
+
+    <h3>Tooltip Example</h3>
+
+    <h1><a href="#" data-toggle="tooltip1" title="Ravali">Hi</a></h1>
+
+
+ <br>
+
+  <div class="container">
+
+            <h3>Popover Example</h3>
+
+            <a href="#" data-toggle="popover" title="Popover Header" data-content="Your Problem Resolved">Toggle popover</a>
+
+        </div>
+
+       
+
+        <script>
+
+        $(document).ready(function(){
+
+            $('[data-toggle="popover"]').popover();  
+
+        });
+
+        </script>  
+
+
+ <br> <div class="container">
+
+    <h3>Pagination Example</h3>             
+
+    <ul class="pagination">
+
+      <li><a href="#">1</a></li>
+
+      <li><a href="#">2</a></li>
+
+      <li><a href="#">3</a></li>
+
+      <li><a href="#">4</a></li>
+
+      <li><a href="#">5</a></li>
+
+    </ul>
+
+  </div> </body>
+
+</html>
+
